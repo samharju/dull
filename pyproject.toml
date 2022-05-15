@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dull"
+version = "1.0.0"
+description = "Simple Python decorator to dump cProfile stats"
+authors = ["Sami Harju <sami.harju@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/samharju/dull"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
